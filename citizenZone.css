@@ -33,6 +33,9 @@
     text-decoration: none;
     color: white;
 }
+.icon-with-box:hover{
+    transform: scale(1.05);
+}
 
 .icon-with-box{
     width: 182px;
