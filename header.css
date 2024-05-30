@@ -1,0 +1,198 @@
+/* Header */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:host {
+    display: inline-block;
+    overflow: hidden;
+    text-align: initial;
+    white-space: nowrap;
+}
+
+a{                                                  /* anchor tag */
+    text-decoration: none;
+    color: white;
+}
+
+.overlay {                                              /* overlay */
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(180deg, #124f9f 0.01%, #071f3e 100%);
+    opacity: 0.8;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.header-container{                                  /* main Header container */
+    position: relative;
+    background-image: url(KMC-Assets/hearder/header-background.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-header{                                        /* Top Header */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 71rem;
+    margin: 0 auto;
+    padding: 1rem;
+
+}
+
+.top-header-left{                                   /* date & tax payment */
+    display: flex;
+    flex-direction: row;
+}
+
+.tax-payment{                                       /* tax payment */
+    margin-left: 1rem;
+    /* border: 1px solid white; */
+    background-color: white;
+    padding: 2px 8px;
+    border-radius: 7px;
+}
+.tax-payment>a{
+    color: #124f9f;
+}
+.tax-payment:hover{
+    background-color: #fcb900;
+    color: white;
+}
+.tax-payment>a:hover{
+    color: white;
+}
+
+
+.top-header-right{                                  /* language & search */
+    display: flex;
+
+}
+
+/* .translator{                                        language switch */
+
+.translator a{
+    margin: 0 4px;
+}
+.translator a:hover{
+    color: #042d64;
+}
+
+
+.search-box{                                        /* search Box */
+    display: flex;
+    margin-left: 1rem;
+    border: 1px solid white;
+    background-color: white;
+    padding: 2px 6px;
+    border-radius: 5px;
+}
+.search-box form input{
+    background: transparent;
+    border: none;
+    color: white;
+    padding: 2px 6px;
+}
+.search-box form input::before{
+    margin-left: 30px;
+}
+
+
+.mid-header{                                        /* Mid Header */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 71rem; */
+    margin: 1.2rem auto;
+    padding: 0 15px;
+}
+
+.mid-header-title a{
+    background-color: #ffffff;
+    padding: 3px 6px;
+    border-radius: 4px;
+    color: #124f9f;
+    font-weight: bold;
+}
+
+
+.logo-name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.logo-nepal>img{
+    margin-right: 1rem;
+}
+
+.kmc-flag{
+    display: flex; 
+    flex-direction: column;
+    margin-left: 12rem;
+}
+
+.kmc-flag img:first-of-type {
+    margin-right: 15px;
+}
+
+#flag-nepal{
+    width: 70px;
+}
+
+
+.news-slider{                                      /* News slider */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    height: 56px;
+    background-color: #263a57;
+    display: flex;
+    color: #ffffff;
+    
+}
+.wrapper{
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.news-list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.news-list li{
+    list-style-type: none;
+}
+.news-list li a:hover{
+    color: #ff6900;
+}
+
+.navbar{                                                /* Nav Bar */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.navbar li{
+    text-decoration: none;
+    list-style-type: none;
+}
