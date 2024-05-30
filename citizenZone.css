@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper{
+    max-width: 1156px;
+    margin: 0 auto;
+}
+
+.container{                             /* Container */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#citizen-zone-title, #notice-section-title{         /* Heading Citizen Zone*/
+    color: rgb(71, 70, 70);
+    margin: 1rem auto;
+}
+
+.nagarik-chetra{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 33px;
+    margin: 0 0 20px;
+}
+.nagarik-chetra a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon-with-box{
+    width: 182px;
+    height: 185px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+/* .icon-with-box img:hover{
+    transform: translateY(-1rem);
+} 
+.icon-with-box h3:hover{
+    transform: translateY(-1rem);
+    animation:alternate;
+} */
+
+.officer-list{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.prabakta-image{
+    width: 120px;
+    height: 130px;
+    border-radius: 6px;   
+}
+.details-number{
+ color: rgb(231, 150, 70);
+}

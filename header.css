@@ -179,6 +179,7 @@ a{                                                  /* anchor tag */
 }
 .news-list li{
     list-style-type: none;
+    margin-right: 70px;
 }
 .news-list li a:hover{
     color: #ff6900;
