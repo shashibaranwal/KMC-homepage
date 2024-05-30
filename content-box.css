@@ -4,15 +4,27 @@
     padding: 0;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
 .wrapper{
     max-width: 1156px;
     margin: 0 auto;
-    }
+}
+.container{
+    background-color: #bbbcbb;
+    height: fit-content;
+    padding-bottom: 1.5rem;
+}
+a{
+    text-decoration: none;
+    color: rgb(25, 25, 25);
+}
+li{
+    list-style: none;
+}
+
 
 .navbar{
-    height: 2.5rem;
-    background-color: grey;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
     margin: 0 auto;
     padding: 10px ;
 }
@@ -23,7 +35,99 @@
     align-items: center;
     max-width: 70rem;
 }
-.navbar li{
-    text-decoration: none;
-    list-style-type: none;
+.navbar ul li a{
+    font-size: large;
+    padding: 1.3rem 1.5rem;
+}
+
+.navbar ul button{
+    color: white;
+    background-color: #124f9f;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px grey;
+    font-size: large;
+}
+.navbar ul button:hover{
+    background-color: #e28118;
+    box-shadow: 2px 4px 2px grey;
+    transform: scale(1.05);
+
+}
+
+.navbar ul li a:hover{
+    color: white;
+    background-color: #e28118;
+}
+
+/* ----------------- Slider ------------------------- */
+.slider-container{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+
+}
+
+.slider-image img{
+    margin: 1.5rem 0;
+    width: 100%;
+}
+
+.slider-container-right{
+    background-color: #124f9f;
+    color: white;
+    height: fit-content;
+    margin: 1.5rem 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------- Executive Section ------------------- */
+.executive-section{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    padding: 2rem 0rem;
+    margin-top: 2rem;
+
+    display: flex;
+    justify-content: space-around;
+}
+.executive-details{
+    text-align: center;
+}
+.executive-details div{
+    color: #e28118;
+}
+
+.member-card{
+    max-width: 320px;
+    box-shadow: 1px 1px 1px rgb(200, 199, 199);
+    border-radius: 9px;
+}
+.member-card img{
+    width: 260px ;
+    overflow: hidden auto;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.member-card:hover{
+    transform: scale(1.02);
 }

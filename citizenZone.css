@@ -44,13 +44,6 @@
     align-items: center;
     border-radius: 6px;
 }
-/* .icon-with-box img:hover{
-    transform: translateY(-1rem);
-} 
-.icon-with-box h3:hover{
-    transform: translateY(-1rem);
-    animation:alternate;
-} */
 
 .officer-list{
     display: flex;
@@ -70,7 +63,7 @@
 /* -------------------- Notice Section ----------------- */
 
 .notice-section-container{
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(226, 226, 226);
     height: 50rem;
     border-radius: 6px;
     margin-left: 10px;
@@ -101,16 +94,6 @@
     overflow:  auto;
     margin: 20px;
 }
-::-webkit-scrollbar{
-    -webkit-column-width: 1px;
-}
-::-webkit-scrollbar-track{
-    background: transparent;
-}
-::-webkit-scrollbar-thumb{
-    background-color: rgb(194, 194, 194);
-    border-radius: 10px;
-}
 
 .news{
     margin: 0.8rem auto;
@@ -119,12 +102,11 @@
     text-decoration: none;
     color: rgb(23, 23, 23);
     font-size: larger;
-    font-weight: bold;
 }
 .news p{
     margin-top: 0.5rem;
     font-size: smaller;
-    color: rgb(129, 129, 129);
+    color: rgb(164, 164, 164);
 }
 .btn-more{
     background-color: #fcb000;
@@ -144,7 +126,57 @@
 /* ------------------ Mobile Application Section---------------------- */
 
 .mobile-app-section{
-    background-color: rgb(187, 188, 187);
+    background-color: rgb(226, 226, 226);
     height: fit-content;
     margin-top: 2rem;
+    padding-bottom: 18px;
 }
+.mobile-app-section-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items:start;
+}
+
+.mobile-app-section-application{
+    margin: 1rem 1rem;
+    padding: 1rem 2rem;
+    background-color: white;
+    height: fit-content;
+}
+.application-list{
+    margin-top: 1rem;
+}
+.application-list a img{
+    width: 14rem;
+    position: relative;
+}
+.application-list a img:hover{
+    width: 14.01rem;
+    box-shadow: 2px 2px 2px 2px #adadad;
+    z-index: 10;
+}
+
+/* ------------------ Gallery -------------------- */
+.gallery{
+    margin-top: 0;
+    background-color: #4a596b;
+    padding: 40px 0;
+}
+.gallery-section{
+    width: 100%;
+color: white;
+}
+.gallery-content{
+    max-width: 25rem;
+}
+.gallery-content-img{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.gallery-content a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+/* ---------------------- Footer ------------------------ */
