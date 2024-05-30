@@ -66,3 +66,85 @@
 .details-number{
  color: rgb(231, 150, 70);
 }
+
+/* -------------------- Notice Section ----------------- */
+
+.notice-section-container{
+    background-color: rgb(229, 229, 229);
+    height: 50rem;
+    border-radius: 6px;
+    margin-left: 10px;
+    
+}
+
+.notice-section-container-navbar{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    background-color: rgb(18, 79, 159);
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.notice-section-container-navbar a{
+    font-size: larger;
+    text-decoration: none;
+    color: white;
+}
+
+.notice-section-container-content{
+    padding: 1rem;
+    max-height: 39rem;
+    border-radius: 8px;
+    overflow:  auto;
+    margin: 20px;
+}
+::-webkit-scrollbar{
+    -webkit-column-width: 1px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px;
+}
+
+.news{
+    margin: 0.8rem auto;
+}
+.news a{
+    text-decoration: none;
+    color: rgb(23, 23, 23);
+    font-size: larger;
+    font-weight: bold;
+}
+.news p{
+    margin-top: 0.5rem;
+    font-size: smaller;
+    color: rgb(129, 129, 129);
+}
+.btn-more{
+    background-color: #fcb000;
+    color: white;
+    margin: 1rem 3rem;
+    padding: 0.45rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: large;
+    font-weight:lighter;
+}
+.btn-more:hover{
+    color: rgb(2, 2, 116);
+}
+
+
+/* ------------------ Mobile Application Section---------------------- */
+
+.mobile-app-section{
+    background-color: rgb(187, 188, 187);
+    height: fit-content;
+    margin-top: 2rem;
+}
