@@ -152,11 +152,10 @@
 .application-list a img{
     width: 14rem;
     position: relative;
+    transition: transform 0.3s ease 0;
 }
 .application-list a img:hover{
-    width: 14.01rem;
-    box-shadow: 2px 2px 2px 2px #adadad;
-    z-index: 10;
+    transform: scale(1.03);
 }
 
 /* ------------------ Gallery -------------------- */
